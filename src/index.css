@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --button-color: #3730a3;
+  --heading-color: #4338ca;
+  --main-heading-color: #1f2937;
+  --text-color: #6b7280;
+}
+
+[data-theme='dark'] {
+  --button-color: #383838;
+  --heading-color: #b7aaff;
+  --main-heading-color: #aebccf;
+  --text-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
