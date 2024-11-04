@@ -16,8 +16,8 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="container mx-auto">
-        <div className="navs flex items-end flex-col py-4">
+      <header className="container mx-auto px-24">
+        <div className="navs flex items-end flex-col py-4 gap-y-6">
           <nav className="flex items-center gap-x-4 text-xs font-bold text-textColor">
             <div className="mode-group flex items-center gap-x-2">
               <button
