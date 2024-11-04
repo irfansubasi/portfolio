@@ -28,6 +28,8 @@ export const translations = {
       birthday: 'Doğum Tarihi',
       city: 'İkamet Şehri',
       edu: 'Eğitim Durumu',
+      eduDetail1: 'Ege Üniversitesi, Ziraat Mühendisliği, Lisans',
+      eduDetail2: 'Anadolu Üniversitesi, Web Tasarım ve Kodlama, Önlisans',
       prefer: 'Tercih Ettiği Rol',
       aboutH: 'Hakkımda',
       aboutText1:
@@ -86,6 +88,8 @@ export const translations = {
       birthday: 'Birthday',
       city: 'City',
       edu: 'Education Status',
+      eduDetail1: "Ege University, Agricultural Engineering, Bachelor's Degree",
+      eduDetail2: 'Anadolu University, Web Design and Coding, Associate Degree',
       prefer: 'Preferred Role',
       aboutH: 'About Me',
       aboutText1:

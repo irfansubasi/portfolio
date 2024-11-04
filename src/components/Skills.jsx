@@ -1,11 +1,12 @@
 import { useLanguage } from '../contexts/LanguageContext';
+import Divider from './Divider';
 
 export default function Skills() {
   const { language, translations } = useLanguage();
 
   return (
-    <section className="skills-section">
-      <div className="skills-content container mx-auto px-24 mt-36">
+    <section className="skills-section container mx-auto px-24">
+      <div className="skills-content  mt-36">
         <h1 className="font-semibold text-5xl">
           {translations[language].skills.skills}
         </h1>
@@ -34,6 +35,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
+      <Divider />
     </section>
   );
 }
