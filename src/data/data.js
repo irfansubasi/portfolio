@@ -40,18 +40,32 @@ export const translations = {
     projects: {
       projectsH: 'Projeler',
       view: 'Siteyi Gör',
-      project1: {
-        heading: 'Meiras Yachting',
-        desc: 'Gerçek bir proje olan yat kiralama sitesi, kullanıcıların hayallerindeki yatları bulup kiralayabilmelerini sağlayan bir platformdur. Frontend ve Backend teknolojilerini beraber kullanarak yaptığım bu projenin Frontend kısmında React, Bootstrap,i18n gibi çeşitli teknolojiler kullanarak kullanıcı dostu bir arayüz oluştururken, backend tarafında ise Node.js ve MongoDB ile veritabanı yönetimini sağladım. Proje, yat seçeneklerini filtreleme ve detaylı bilgi alma gibi özelliklerle zenginleştirilmiştir. Kullanıcıların deniz tutkusunu karşılamak için etkili ve erişilebilir bir deneyim sunmak amaçlanmıştır.',
-      },
-      project2: {
-        heading: 'Sega Genesis Tarzında Retro Taş-Kağıt-Makas',
-        desc: 'Geleneksel Taş-Kağıt-Makas oyununu, eski Sega Genesis oyunlarına benzemesi için retro görünüm ve hissiyata sahip bir oyuna çevirdim. Bu yenilikçi oyun kullanıcılara meydan okuyucu, dövüş mekanikleri içeren ve ilerlemeli bir T-K-M tecrübesi sunuyor. Tamamen vanilla JavaScript ve CSS ile oluşturulmuş bu projede ek teknolojiler kullanmadan, temel JavaScript ve CSS yeteneklerimi test etme ve zorlama fırsatı bularak projeyi başarıyla tamamladım.',
-      },
-      project3: {
-        heading: 'Hava Durumu',
-        desc: 'Vanilla JS kullanarak API istekleri üzerinde çalıştım. Kullanıcıya görsel bir destek sunma amacıyla güncel hava durumuna göre arkaplan değişkliği ve kullanılan renk, ikonlar özenle seçildi. İstenilen şehrin veya bölgenin anlık ve haftalık tüm detaylarına ulaşılabilmekte. Tüm cihazlardan erişim düşünülerek responsive bir tasarım uygulanmakta.',
-      },
+      projectList: [
+        {
+          src: '../src/assets/images/meirascover.png',
+          link: 'https://github.com/irfansubasi/meiras-yachting',
+          live: 'https://meirasyachting.com',
+          heading: 'Meiras Yachting',
+          desc: 'Gerçek bir proje olan yat kiralama sitesi, kullanıcıların hayallerindeki yatları bulup kiralayabilmelerini sağlayan bir platformdur. Frontend ve Backend teknolojilerini beraber kullanarak yaptığım bu projenin Frontend kısmında React, Bootstrap, i18n gibi çeşitli teknolojiler kullanarak kullanıcı dostu bir arayüz oluştururken, backend tarafında ise Node.js ve MongoDB ile veritabanı yönetimini sağladım.',
+          badges: ['react', 'nodejs', 'axios', 'mongodb'],
+        },
+        {
+          src: '../src/assets/images/rpscover.png',
+          link: 'https://github.com/irfansubasi/rock-paper-scissors',
+          live: 'https://irfansubasi.github.io/rock-paper-scissors/',
+          heading: 'Sega TKM Oyunu',
+          desc: 'Geleneksel Taş-Kağıt-Makas oyununu, eski Sega Genesis oyunlarına benzemesi için retro görünüm ve hissiyata sahip bir oyuna çevirdim. Bu yenilikçi oyun kullanıcılara meydan okuyucu, dövüş mekanikleri içeren ve ilerlemeli bir T-K-M tecrübesi sunuyor. Tamamen vanilla JavaScript ve CSS ile oluşturulmuş bu projede ek teknolojiler kullanmadan, temel JavaScript ve CSS yeteneklerimi test etme ve zorlama fırsatı bularak projeyi başarıyla tamamladım.',
+          badges: ['Javascript', 'html', 'css', 'bootstrap'],
+        },
+        {
+          src: '../src/assets/images/weathercover.png',
+          link: 'https://github.com/irfansubasi/weather-app',
+          live: 'https://irfansubasi.github.io/weather-app/',
+          heading: 'Hava Durumu',
+          desc: 'Vanilla JS kullanarak API istekleri üzerinde çalıştım. Kullanıcıya görsel bir destek sunma amacıyla güncel hava durumuna göre arkaplan değişkliği ve kullanılan renk, ikonlar özenle seçildi. İstenilen şehrin veya bölgenin anlık ve haftalık tüm detaylarına ulaşılabilmekte. Tüm cihazlardan erişim düşünülerek responsive bir tasarım uygulanmakta.',
+          badges: ['Javascript', 'webpack', 'css', 'scss'],
+        },
+      ],
     },
     footer: {
       heading1: 'Haydi bir sonraki ürününüz üzerinde',
@@ -100,18 +114,32 @@ export const translations = {
     projects: {
       projectsH: 'Projects',
       view: 'View Site',
-      project1: {
-        heading: 'Meiras Yachting',
-        desc: 'As a real project, the yacht rental site is a platform that allows users to find and rent their dream yachts. By using both Frontend and Backend technologies, I created a user-friendly interface using various technologies such as React, Bootstrap, and i18n on the Frontend side, while managing the database with Node.js and MongoDB on the backend. The project is enriched with features like filtering yacht options and obtaining detailed information. It aims to provide an effective and accessible experience to meet users’ passion for the sea.',
-      },
-      project2: {
-        heading: 'Retro Rock-Paper-Scissors in Sega Genesis Style',
-        desc: 'I transformed the traditional Rock-Paper-Scissors game into a retro-styled game reminiscent of old Sega Genesis games. This innovative game offers users a challenging experience with combat mechanics and a progressive R-P-S gameplay. Created entirely with vanilla JavaScript and CSS, this project allowed me to test and push my basic JavaScript and CSS skills without using additional technologies, successfully completing the project.',
-      },
-      project3: {
-        heading: 'Weather App',
-        desc: 'I worked on API requests using Vanilla JS. To provide visual support to the user, the background changes according to the current weather, and the colors and icons used were carefully selected. Users can access all details about the current and weekly weather for any requested city or region. The design is responsive to ensure access from all devices.',
-      },
+      projectList: [
+        {
+          src: '../src/assets/images/meirascover.png',
+          link: 'https://github.com/irfansubasi/meiras-yachting',
+          live: 'https://meirasyachting.com',
+          heading: 'Meiras Yachting',
+          desc: 'As a real project, the yacht rental site is a platform that allows users to find and rent their dream yachts. By using both Frontend and Backend technologies, I created a user-friendly interface using various technologies such as React, Bootstrap, and i18n on the Frontend side, while managing the database with Node.js and MongoDB on the backend.',
+          badges: ['react', 'nodejs', 'axios', 'mongodb'],
+        },
+        {
+          src: '../src/assets/images/rpscover.png',
+          link: 'https://github.com/irfansubasi/rock-paper-scissors',
+          live: 'https://irfansubasi.github.io/rock-paper-scissors/',
+          heading: 'Sega RPS Game',
+          desc: 'I transformed the traditional Rock-Paper-Scissors game into a retro-styled game reminiscent of old Sega Genesis games. This innovative game offers users a challenging experience with combat mechanics and a progressive R-P-S gameplay. Created entirely with vanilla JavaScript and CSS, this project allowed me to test and push my basic JavaScript and CSS skills without using additional technologies, successfully completing the project.',
+          badges: ['Javascript', 'html', 'css', 'bootstrap'],
+        },
+        {
+          src: '../src/assets/images/weathercover.png',
+          link: 'https://github.com/irfansubasi/weather-app',
+          live: 'https://irfansubasi.github.io/weather-app/',
+          heading: 'Weather App',
+          desc: 'I worked on API requests using Vanilla JS. To provide visual support to the user, the background changes according to the current weather, and the colors and icons used were carefully selected. Users can access all details about the current and weekly weather for any requested city or region. The design is responsive to ensure access from all devices.',
+          badges: ['Javascript', 'webpack', 'css', 'scss'],
+        },
+      ],
     },
     footer: {
       heading1: 'Let’s work together on your next product',
