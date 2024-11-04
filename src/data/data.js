@@ -74,7 +74,7 @@ export const translations = {
       text: "Hi, I'm İrfan. I'm a full-stack developer. If you're looking for a developer who crafts solid and scalable frontend products with great user experiences, you should shake hands with me!",
     },
     skills: {
-      skills: 'My Skills',
+      skills: 'Skills',
       js: 'JavaScript is a powerful programming language used for developing dynamic and interactive web applications. With modern JavaScript libraries and frameworks (such as React, Vue, Angular), I can design user interfaces more effectively and efficiently.',
       react:
         'React.js is a component-based JavaScript library developed for creating user interfaces. With my skills in fast and effective UI development, I can create dynamic and reusable components, enhancing application performance.',
