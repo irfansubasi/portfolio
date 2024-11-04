@@ -5,7 +5,7 @@ export default function Skills() {
   const { language, translations } = useLanguage();
 
   return (
-    <section className="skills-section container mx-auto px-24">
+    <section id="skills" className="skills-section container mx-auto px-24">
       <div className="skills-content  mt-36">
         <h1 className="font-semibold text-5xl">
           {translations[language].skills.skills}

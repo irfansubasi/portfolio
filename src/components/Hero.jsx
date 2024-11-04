@@ -24,9 +24,21 @@ export default function Hero() {
               {translations[language].welcome.text}
             </p>
             <div className="btn-group flex gap-x-4">
-              <Button isSolid={true} text={translations[language].nav.hire} />
-              <Button icon={githubIcon} text="Github" />
-              <Button icon={linkedinIcon} text="LinkenIn" />
+              <Button
+                link={translations[language].nav.hireLink}
+                isSolid={true}
+                text={translations[language].nav.hire}
+              />
+              <Button
+                link={translations[language].nav.githubLink}
+                icon={githubIcon}
+                text="Github"
+              />
+              <Button
+                link={translations[language].nav.linkedinLink}
+                icon={linkedinIcon}
+                text="LinkenIn"
+              />
             </div>
           </div>
           <div className="right-side flex-1 basis-2/5">

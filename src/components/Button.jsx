@@ -1,6 +1,8 @@
-export default function Button({ text, icon, isSolid }) {
+export default function Button({ text, icon, isSolid, link }) {
   return (
-    <button
+    <a
+      href={link}
+      target="_blank"
       className={`${
         isSolid
           ? 'bg-buttonColor text-white'
@@ -10,6 +12,6 @@ export default function Button({ text, icon, isSolid }) {
       {icon && <img className="w-5 h-5" src={icon} alt="icon" />}
 
       {text}
-    </button>
+    </a>
   );
 }

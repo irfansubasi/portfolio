@@ -9,6 +9,9 @@ export const translations = {
       skills: 'Yetenekler',
       projects: 'Projeler',
       hire: 'Benimle Çalışın',
+      hireLink: 'https://linktr.ee/irfansubasi',
+      githubLink: 'https://github.com/irfansubasi',
+      linkedinLink: 'https://www.linkedin.com/in/irfansubasi/',
     },
     welcome: {
       bigHeading1: 'Yaratıcı düşünen',
@@ -83,6 +86,9 @@ export const translations = {
       skills: 'Skills',
       projects: 'Projects',
       hire: 'Hire Me',
+      hireLink: 'https://linktr.ee/irfansubasi',
+      githubLink: 'https://github.com/irfansubasi',
+      linkedinLink: 'https://www.linkedin.com/in/irfansubasi/',
     },
     welcome: {
       bigHeading1: 'Creative Thinker',

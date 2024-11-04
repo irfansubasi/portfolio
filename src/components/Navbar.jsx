@@ -66,9 +66,12 @@ export default function Navbar() {
           <div className="nav-group flex items-center justify-between w-full">
             <img src={pfp} alt="pfp" className="w-12" />
             <nav className="text-textColor font-medium flex items-center gap-x-16">
-              <a href="#">{translations[language].nav.skills}</a>
-              <a href="#">{translations[language].nav.projects}</a>
-              <Button text={translations[language].nav.hire} />
+              <a href="#skills">{translations[language].nav.skills}</a>
+              <a href="#projects">{translations[language].nav.projects}</a>
+              <Button
+                link={translations[language].nav.hireLink}
+                text={translations[language].nav.hire}
+              />
             </nav>
           </div>
         </div>
