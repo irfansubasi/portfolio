@@ -142,8 +142,8 @@ export const translations = {
       ],
     },
     footer: {
-      heading1: 'Let’s work together on your next product',
-      heading2: '!',
+      heading1: 'Let’s work together on',
+      heading2: 'your next product!',
       blog: 'Personal Blog',
     },
   },

@@ -5,7 +5,7 @@ export default function Projects() {
   const { language, translations } = useLanguage();
   return (
     <section className="projects-section container mx-auto px-24">
-      <div className="projects-content">
+      <div className="projects-content mb-32">
         <h1 className="font-semibold text-5xl">
           {translations[language].projects.projectsH}
         </h1>
