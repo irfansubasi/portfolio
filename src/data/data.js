@@ -45,7 +45,7 @@ export const translations = {
       view: 'Siteyi Gör',
       projectList: [
         {
-          src: '../src/assets/images/meirascover.png',
+          src: '../assets/images/meirascover.png',
           link: 'https://github.com/irfansubasi/meiras-yachting',
           live: 'https://meirasyachting.com',
           heading: 'Meiras Yachting',
@@ -53,7 +53,7 @@ export const translations = {
           badges: ['react', 'nodejs', 'axios', 'mongodb'],
         },
         {
-          src: '../src/assets/images/rpscover.png',
+          src: '../assets/images/rpscover.png',
           link: 'https://github.com/irfansubasi/rock-paper-scissors',
           live: 'https://irfansubasi.github.io/rock-paper-scissors/',
           heading: 'Sega TKM Oyunu',
@@ -61,7 +61,7 @@ export const translations = {
           badges: ['Javascript', 'html', 'css', 'bootstrap'],
         },
         {
-          src: '../src/assets/images/weathercover.png',
+          src: '../assets/images/weathercover.png',
           link: 'https://github.com/irfansubasi/weather-app',
           live: 'https://irfansubasi.github.io/weather-app/',
           heading: 'Hava Durumu',
@@ -122,7 +122,7 @@ export const translations = {
       view: 'View Site',
       projectList: [
         {
-          src: '../src/assets/images/meirascover.png',
+          src: '../assets/images/meirascover.png',
           link: 'https://github.com/irfansubasi/meiras-yachting',
           live: 'https://meirasyachting.com',
           heading: 'Meiras Yachting',
@@ -130,7 +130,7 @@ export const translations = {
           badges: ['react', 'nodejs', 'axios', 'mongodb'],
         },
         {
-          src: '../src/assets/images/rpscover.png',
+          src: '../assets/images/rpscover.png',
           link: 'https://github.com/irfansubasi/rock-paper-scissors',
           live: 'https://irfansubasi.github.io/rock-paper-scissors/',
           heading: 'Sega RPS Game',
@@ -138,7 +138,7 @@ export const translations = {
           badges: ['Javascript', 'html', 'css', 'bootstrap'],
         },
         {
-          src: '../src/assets/images/weathercover.png',
+          src: '../assets/images/weathercover.png',
           link: 'https://github.com/irfansubasi/weather-app',
           live: 'https://irfansubasi.github.io/weather-app/',
           heading: 'Weather App',
