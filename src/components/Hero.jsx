@@ -1,8 +1,6 @@
 import { useLanguage } from '../contexts/LanguageContext';
 import heroImg from '../assets/images/hero.gif';
 import Button from './Button';
-import githubIcon from '../assets/icons/github.svg';
-import linkedinIcon from '../assets/icons/LinkedIn.svg';
 
 export default function Hero() {
   const { language, translations } = useLanguage();

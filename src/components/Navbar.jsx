@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import moonIcon from '../assets/icons/moon.svg';
 import sunIcon from '../assets/icons/sun.svg';
 import { useLanguage } from '../contexts/LanguageContext';

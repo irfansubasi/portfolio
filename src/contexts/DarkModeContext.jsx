@@ -1,12 +1,13 @@
 import { createContext, useContext, useState } from 'react';
+import useLocalStorage from '../hooks/useLocalStorage';
 
-export const DarkModeContext = createContext();
+const DarkModeContext = createContext();
 
 export default function DarkModeProvider({ children }) {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useLocalStorage('darkMode', false);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
+    setDarkMode((prevMode) => !prevMode);
   };
   return (
     <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
