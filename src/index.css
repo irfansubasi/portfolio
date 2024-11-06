@@ -4,16 +4,22 @@
 
 :root {
   --button-color: #3730a3;
+  --button-bg-color: #ffffff;
   --heading-color: #4338ca;
   --main-heading-color: #1f2937;
   --text-color: #6b7280;
+  --background-color: #ffffff;
+  --footercolor: #f9f9f9;
 }
 
 [data-theme='dark'] {
-  --button-color: #383838;
+  --button-color: #e1e1ff;
+  --button-bg-color: #383838;
   --heading-color: #b7aaff;
   --main-heading-color: #aebccf;
   --text-color: #ffffff;
+  --background-color: #252128;
+  --footercolor: #141414;
 }
 
 * {

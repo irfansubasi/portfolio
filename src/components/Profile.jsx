@@ -7,7 +7,7 @@ export default function Profile() {
   return (
     <section className="profile-section container mx-auto px-24">
       <div className="profile-content">
-        <h1 className="font-semibold text-5xl">
+        <h1 className="font-semibold text-5xl text-mainHeadingColor">
           {translations[language].profile.profileH}
         </h1>
         <div className="info-group flex mt-8 gap-x-16">
@@ -16,17 +16,17 @@ export default function Profile() {
               {translations[language].profile.profileH}
             </h3>
             <div className="details flex flex-col gap-y-6 font-semibold">
-              <p className="flex justify-between">
+              <p className="flex justify-between text-mainHeadingColor">
                 {translations[language].profile.birthday}
                 <span className="w-1/2 text-textColor font-normal">
                   17.10.1996
                 </span>
               </p>
-              <p className="flex justify-between">
+              <p className="flex justify-between text-mainHeadingColor">
                 {translations[language].profile.city}
                 <span className="w-1/2 text-textColor font-normal">Bursa</span>
               </p>
-              <p className="flex justify-between">
+              <p className="flex justify-between text-mainHeadingColor">
                 {translations[language].profile.edu}
                 <span className="w-1/2 text-textColor font-normal">
                   {translations[language].profile.eduDetail1}
@@ -34,7 +34,7 @@ export default function Profile() {
                   {translations[language].profile.eduDetail2}
                 </span>
               </p>
-              <p className="flex justify-between">
+              <p className="flex justify-between text-mainHeadingColor">
                 {translations[language].profile.prefer}
                 <span className="w-1/2 text-textColor font-normal">
                   Frontend, Backend, Fullstack

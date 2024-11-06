@@ -5,9 +5,12 @@ export default {
     extend: {
       colors: {
         buttonColor: 'var(--button-color)',
+        btnBackgroundColor: 'var(--button-bg-color)',
         headingColor: 'var(--heading-color)',
         mainHeadingColor: 'var(--main-heading-color)',
         textColor: 'var(--text-color)',
+        backgroundColor: 'var(--background-color)',
+        footercolor: 'var(--footercolor)',
       },
     },
   },

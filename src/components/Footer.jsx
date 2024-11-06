@@ -4,10 +4,10 @@ export default function Footer() {
   const { language, translations } = useLanguage();
 
   return (
-    <footer className="projects-section bg-[#F9F9F9]">
+    <footer className="projects-section bg-footercolor">
       <div className="footer-content flex flex-col gap-y-12 container mx-auto px-24 py-24">
         <div className="slogan">
-          <h2 className="font-semibold text-4xl">
+          <h2 className="font-semibold text-4xl text-mainHeadingColor">
             {translations[language].footer.heading1}
             <br />
             {translations[language].footer.heading2}

@@ -2,6 +2,7 @@ export const translations = {
   tr: {
     nav: {
       mode: 'karanlık mod',
+      mode2: 'aydınlık mod',
       lang: {
         lang1: 'switch to',
         lang2: 'English',
@@ -79,6 +80,7 @@ export const translations = {
   en: {
     nav: {
       mode: 'dark mode',
+      mode2: 'light mod',
       lang: {
         lang1: 'Türkçe',
         lang2: "'ye geç",

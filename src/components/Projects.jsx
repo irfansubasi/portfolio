@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section id="projects" className="projects-section container mx-auto px-24">
       <div className="projects-content mb-32">
-        <h1 className="font-semibold text-5xl">
+        <h1 className="font-semibold text-5xl text-mainHeadingColor">
           {translations[language].projects.projectsH}
         </h1>
         <div className="showcase-group flex gap-x-24 mt-12">

@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <section id="skills" className="skills-section container mx-auto px-24">
       <div className="skills-content  mt-36">
-        <h1 className="font-semibold text-5xl">
+        <h1 className="font-semibold text-5xl text-mainHeadingColor">
           {translations[language].skills.skills}
         </h1>
         <div className="skill-group flex gap-x-32 mt-10">

@@ -31,12 +31,12 @@ export default function Hero() {
               />
               <Button
                 link={translations[language].nav.githubLink}
-                icon={githubIcon}
+                icon="github"
                 text="Github"
               />
               <Button
                 link={translations[language].nav.linkedinLink}
-                icon={linkedinIcon}
+                icon="linkedin"
                 text="LinkenIn"
               />
             </div>
