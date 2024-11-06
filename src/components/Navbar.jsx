@@ -10,8 +10,8 @@ import { FiMenu, FiX } from 'react-icons/fi';
 export default function Navbar() {
   const { darkMode, toggleDarkMode } = useDarkMode();
   const { language, switchLanguage, translations } = useLanguage();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
