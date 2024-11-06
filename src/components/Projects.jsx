@@ -9,11 +9,11 @@ export default function Projects() {
         <h1 className="font-semibold text-5xl text-mainHeadingColor">
           {translations[language].projects.projectsH}
         </h1>
-        <div className="showcase-group flex gap-x-24 mt-12">
+        <div className="showcase-group flex flex-col lg:flex-row gap-y-12 gap-x-24 mt-12">
           {translations[language].projects.projectList.map((item, index) => (
             <div
               key={index}
-              className={`project-${index} w-1/3 flex flex-col gap-y-6`}
+              className={`project-${index} lg:w-1/3 flex flex-col gap-y-6`}
             >
               <div className="w-full h-48">
                 <img

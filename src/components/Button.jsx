@@ -10,7 +10,7 @@ export default function Button({ text, icon, isSolid, link }) {
         isSolid
           ? 'bg-buttonColor text-backgroundColor'
           : 'bg-btnBackgroundColor text-buttonColor'
-      } border border-buttonColor py-2 px-6 rounded-md flex gap-x-3 hover:scale-110`}
+      } border border-buttonColor py-2 px-6 rounded-md flex items-center justify-center gap-x-3 hover:scale-110`}
     >
       {icon &&
         (icon === 'github' ? (

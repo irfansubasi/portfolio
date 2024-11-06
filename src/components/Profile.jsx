@@ -10,8 +10,8 @@ export default function Profile() {
         <h1 className="font-semibold text-5xl text-mainHeadingColor">
           {translations[language].profile.profileH}
         </h1>
-        <div className="info-group flex mt-8 gap-x-16">
-          <div className="profile-details w-1/2">
+        <div className="info-group flex flex-col lg:flex-row mt-8 gap-x-16 gap-y-16">
+          <div className="profile-details lg:w-1/2">
             <h3 className="text-headingColor font-medium text-3xl mb-6">
               {translations[language].profile.profileH}
             </h3>
@@ -42,7 +42,7 @@ export default function Profile() {
               </p>
             </div>
           </div>
-          <div className="aboutme w-1/2">
+          <div className="aboutme lg:w-1/2">
             <h3 className="text-headingColor font-medium text-3xl mb-6">
               {translations[language].profile.aboutH}
             </h3>

@@ -13,7 +13,7 @@ export default function Footer() {
             {translations[language].footer.heading2}
           </h2>
         </div>
-        <div className="second-part flex justify-between">
+        <div className="second-part flex flex-col lg:flex-row gap-y-16 justify-between">
           <span>
             👉
             <a
