@@ -72,7 +72,6 @@ export default function Navbar() {
       <div className="flex items-center justify-between py-4">
         <img src={pfp} alt="pfp" className="w-12" />
 
-        {/* Mobil Hamburger İkonu */}
         <button onClick={toggleMenu} className="lg:hidden">
           {isMenuOpen ? (
             <FiX className="w-6 h-6 stroke-textColor" />
@@ -81,7 +80,6 @@ export default function Navbar() {
           )}
         </button>
 
-        {/* Masaüstü için Navbar Menüsü */}
         <div className="hidden lg:flex items-center gap-x-16">
           <a className="text-textColor" href="#skills">
             {translations[language].nav.skills}
@@ -96,7 +94,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobil Menü */}
       {isMenuOpen && (
         <div className="flex flex-col items-center gap-y-4 py-4 lg:hidden">
           <a className="text-textColor" href="#skills" onClick={toggleMenu}>
@@ -110,7 +107,6 @@ export default function Navbar() {
             text={translations[language].nav.hire}
           />
 
-          {/* Tema Değiştirici ve Dil Seçeneği */}
           <div className="modes flex items-center justify-center mt-8 gap-x-4">
             <div className="flex items-center gap-x-4 lg:mt-4">
               <button
