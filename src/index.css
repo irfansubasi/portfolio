@@ -40,9 +40,3 @@ html {
     font-size: 12px;
   }
 }
-
-@media (max-width: 768px) {
-  .container {
-    overflow-x: hidden;
-  }
-}
