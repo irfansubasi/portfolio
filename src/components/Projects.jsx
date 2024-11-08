@@ -10,6 +10,7 @@ export default function Projects() {
           {translations[language].projects.projectsH}
         </h1>
         <div className="showcase-group flex flex-col lg:flex-row gap-y-12 gap-x-24 mt-12">
+          {/* projects map */}
           {translations[language].projects.projectList.map((item, index) => (
             <div
               key={index}
